@@ -56,6 +56,48 @@
 			remoteGlobalIDString = CEC2907E1A4ABD3900777576;
 			remoteInfo = welsenc;
 		};
+		F13497801BCA31D900DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC277391A4B9DBA00A5B33B /* common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC28FB61A4AB2B100777576;
+			remoteInfo = common;
+		};
+		F13497881BCA31E200DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC277331A4B9DB200A5B33B /* processing.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC290041A4AB4AA00777576;
+			remoteInfo = processing;
+		};
+		F134978A1BCA31E800DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC291CC1A4AC59800777576 /* welsenc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC2907D1A4ABD3900777576;
+			remoteInfo = welsenc;
+		};
+		F134978C1BCA31F100DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6092341A5143200078A7E0 /* welsdec.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC291391A4AC1C900777576;
+			remoteInfo = welsdec;
+		};
+		F134978E1BCA31F600DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC2775D1A4B9FC300A5B33B /* encConsole.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC277781A4BB42400A5B33B;
+			remoteInfo = encConsole;
+		};
+		F13497901BCA31FC00DC5ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE60922A1A51430E0078A7E0 /* decConsole.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6092161A513FAC0078A7E0;
+			remoteInfo = decConsole;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +226,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				F13497911BCA31FC00DC5ED0 /* PBXTargetDependency */,
+				F134978F1BCA31F600DC5ED0 /* PBXTargetDependency */,
+				F134978D1BCA31F100DC5ED0 /* PBXTargetDependency */,
+				F134978B1BCA31E800DC5ED0 /* PBXTargetDependency */,
+				F13497891BCA31E200DC5ED0 /* PBXTargetDependency */,
+				F13497811BCA31D900DC5ED0 /* PBXTargetDependency */,
 			);
 			name = openh264;
 			productName = openh264;
@@ -301,6 +349,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13497811BCA31D900DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = common;
+			targetProxy = F13497801BCA31D900DC5ED0 /* PBXContainerItemProxy */;
+		};
+		F13497891BCA31E200DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = processing;
+			targetProxy = F13497881BCA31E200DC5ED0 /* PBXContainerItemProxy */;
+		};
+		F134978B1BCA31E800DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = welsenc;
+			targetProxy = F134978A1BCA31E800DC5ED0 /* PBXContainerItemProxy */;
+		};
+		F134978D1BCA31F100DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = welsdec;
+			targetProxy = F134978C1BCA31F100DC5ED0 /* PBXContainerItemProxy */;
+		};
+		F134978F1BCA31F600DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = encConsole;
+			targetProxy = F134978E1BCA31F600DC5ED0 /* PBXContainerItemProxy */;
+		};
+		F13497911BCA31FC00DC5ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = decConsole;
+			targetProxy = F13497901BCA31FC00DC5ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CEC291C61A4AC4ED00777576 /* Debug */ = {

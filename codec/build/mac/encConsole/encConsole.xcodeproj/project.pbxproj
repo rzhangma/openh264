@@ -34,7 +34,6 @@
 		ECA2B9EC1B5E10C30095A33B /* libprocessing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprocessing.a; path = ../../../../bin/mac/Debug/libprocessing.a; sourceTree = "<group>"; };
 		ECA2B9EE1B5E10C90095A33B /* libcommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcommon.a; path = ../../../../bin/mac/Debug/libcommon.a; sourceTree = "<group>"; };
 		ECA2B9F01B5E10D10095A33B /* libwelsenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwelsenc.a; path = ../../../../bin/mac/Debug/libwelsenc.a; sourceTree = "<group>"; };
-		ECA2BACE1B5E34350095A33B /* libopenh264Common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenh264Common.a; path = ../../../../bin/mac/Debug/libopenh264Common.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +53,6 @@
 		CEC277701A4BB42400A5B33B = {
 			isa = PBXGroup;
 			children = (
-				ECA2BACE1B5E34350095A33B /* libopenh264Common.a */,
 				ECA2B9F01B5E10D10095A33B /* libwelsenc.a */,
 				ECA2B9EE1B5E10C90095A33B /* libcommon.a */,
 				ECA2B9EC1B5E10C30095A33B /* libprocessing.a */,
