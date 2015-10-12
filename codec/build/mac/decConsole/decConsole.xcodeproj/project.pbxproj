@@ -244,6 +244,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/openh264-dazbogfrigymgpejrufawdhvrwna/Build/Products/Debug",
 					/Users/huashi/project/Openh264/Huade/bin/mac/Debug,
 				);
+				OBJROOT = "$(SRCROOT)/../../../../bin/mac/$(CONFIGURATION)/objs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
